@@ -1,0 +1,322 @@
+{
+	"id": "85774d39-ce30-6291-c0a0-dc732d13a59f",
+	"name": "craftBeer",
+	"description": "Requisition tests at api craftBeer",
+	"order": [
+		"f4423928-4762-6967-6180-18201fa1e631",
+		"d1ca61b8-a021-630f-b6cf-75a7253c80ee",
+		"bafcbeac-5232-5ab3-8250-860d5d18e3d7",
+		"b3c84771-0b1a-9fe4-f0a1-3b70beacd8fb",
+		"73325120-0d5d-f006-60b3-74f2d5bcc62c",
+		"84d4667f-2307-47bd-30c5-01d78733a40e",
+		"86581c6a-b9d6-911c-6df3-63ba52daf362"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1601345556325,
+	"owner": "6141169",
+	"public": false,
+	"requests": [
+		{
+			"id": "73325120-0d5d-f006-60b3-74f2d5bcc62c",
+			"headers": "Accept: application/json\nContent-Type: application/json\n//Authorization: Bearer BQCY4s4bvX-JzZrSPbfwNrKdqs5bKijT3JYerorQ5qo5nNzIdpCHAgtgXb28aQsXW1hSNS57_J9Y6Zzf7uZBe1_Fjz2r0UHZ73FZf0diN05xRsWuzhOnrX0_DR3XT0GjrTON-xF8o25HvFuOigWPT15KgdoKPWujP_UHW9M\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer BQCY4s4bvX-JzZrSPbfwNrKdqs5bKijT3JYerorQ5qo5nNzIdpCHAgtgXb28aQsXW1hSNS57_J9Y6Zzf7uZBe1_Fjz2r0UHZ73FZf0diN05xRsWuzhOnrX0_DR3XT0GjrTON-xF8o25HvFuOigWPT15KgdoKPWujP_UHW9M",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:9000/beerhouse/beers/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": "",
+			"method": "PUT",
+			"collectionId": "85774d39-ce30-6291-c0a0-dc732d13a59f",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:9000/beerhouse/beers/1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1601345707057,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\"name\": \"Blue Moon\",\n\"ingredients\": \"Trigo e malte de cevada\",\n\"alcoholContent\": \"5,4%\",\n\"price\": \"110.0\",\n\"category\": \"Witbier\"\n}\n"
+		},
+		{
+			"id": "84d4667f-2307-47bd-30c5-01d78733a40e",
+			"headers": "Accept: application/json\nContent-Type: application/json\n//Authorization: Bearer BQCY4s4bvX-JzZrSPbfwNrKdqs5bKijT3JYerorQ5qo5nNzIdpCHAgtgXb28aQsXW1hSNS57_J9Y6Zzf7uZBe1_Fjz2r0UHZ73FZf0diN05xRsWuzhOnrX0_DR3XT0GjrTON-xF8o25HvFuOigWPT15KgdoKPWujP_UHW9M\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer BQCY4s4bvX-JzZrSPbfwNrKdqs5bKijT3JYerorQ5qo5nNzIdpCHAgtgXb28aQsXW1hSNS57_J9Y6Zzf7uZBe1_Fjz2r0UHZ73FZf0diN05xRsWuzhOnrX0_DR3XT0GjrTON-xF8o25HvFuOigWPT15KgdoKPWujP_UHW9M",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:9000/beerhouse/beers/2",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": "",
+			"method": "PATCH",
+			"collectionId": "85774d39-ce30-6291-c0a0-dc732d13a59f",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:9000/beerhouse/beers/2",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1601345723981,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\"name\": \"Louvada\"\n}\n"
+		},
+		{
+			"id": "86581c6a-b9d6-911c-6df3-63ba52daf362",
+			"headers": "Accept: application/json\nContent-Type: application/json\n//Authorization: Bearer BQCY4s4bvX-JzZrSPbfwNrKdqs5bKijT3JYerorQ5qo5nNzIdpCHAgtgXb28aQsXW1hSNS57_J9Y6Zzf7uZBe1_Fjz2r0UHZ73FZf0diN05xRsWuzhOnrX0_DR3XT0GjrTON-xF8o25HvFuOigWPT15KgdoKPWujP_UHW9M\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer BQCY4s4bvX-JzZrSPbfwNrKdqs5bKijT3JYerorQ5qo5nNzIdpCHAgtgXb28aQsXW1hSNS57_J9Y6Zzf7uZBe1_Fjz2r0UHZ73FZf0diN05xRsWuzhOnrX0_DR3XT0GjrTON-xF8o25HvFuOigWPT15KgdoKPWujP_UHW9M",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:9000/beerhouse/beers/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": "",
+			"method": "DELETE",
+			"collectionId": "85774d39-ce30-6291-c0a0-dc732d13a59f",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:9000/beerhouse/beers",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1601346844697,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\"name\": \"DUM Grand\",\n\"ingredients\": \"Trigo\",\n\"alcoholContent\": \"8,8%\",\n\"price\": \"23.9\",\n\"category\": \"Double Witbier\"\n}\n"
+		},
+		{
+			"id": "b3c84771-0b1a-9fe4-f0a1-3b70beacd8fb",
+			"headers": "Accept: application/json\nContent-Type: application/json\n//Authorization: Bearer BQCY4s4bvX-JzZrSPbfwNrKdqs5bKijT3JYerorQ5qo5nNzIdpCHAgtgXb28aQsXW1hSNS57_J9Y6Zzf7uZBe1_Fjz2r0UHZ73FZf0diN05xRsWuzhOnrX0_DR3XT0GjrTON-xF8o25HvFuOigWPT15KgdoKPWujP_UHW9M\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer BQCY4s4bvX-JzZrSPbfwNrKdqs5bKijT3JYerorQ5qo5nNzIdpCHAgtgXb28aQsXW1hSNS57_J9Y6Zzf7uZBe1_Fjz2r0UHZ73FZf0diN05xRsWuzhOnrX0_DR3XT0GjrTON-xF8o25HvFuOigWPT15KgdoKPWujP_UHW9M",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:9000/beerhouse/beers/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": "",
+			"method": "GET",
+			"collectionId": "85774d39-ce30-6291-c0a0-dc732d13a59f",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:9000/beerhouse/beers/1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1601345675002,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\"name\": \"DUM Grand\",\n\"ingredients\": \"Trigo\",\n\"alcoholContent\": \"8,8%\",\n\"price\": \"23.9\",\n\"category\": \"Double Witbier\"\n}\n"
+		},
+		{
+			"id": "bafcbeac-5232-5ab3-8250-860d5d18e3d7",
+			"headers": "Accept: application/json\nContent-Type: application/json\n//Authorization: Bearer BQCY4s4bvX-JzZrSPbfwNrKdqs5bKijT3JYerorQ5qo5nNzIdpCHAgtgXb28aQsXW1hSNS57_J9Y6Zzf7uZBe1_Fjz2r0UHZ73FZf0diN05xRsWuzhOnrX0_DR3XT0GjrTON-xF8o25HvFuOigWPT15KgdoKPWujP_UHW9M\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer BQCY4s4bvX-JzZrSPbfwNrKdqs5bKijT3JYerorQ5qo5nNzIdpCHAgtgXb28aQsXW1hSNS57_J9Y6Zzf7uZBe1_Fjz2r0UHZ73FZf0diN05xRsWuzhOnrX0_DR3XT0GjrTON-xF8o25HvFuOigWPT15KgdoKPWujP_UHW9M",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:9000/beerhouse/beers",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": "",
+			"method": "GET",
+			"collectionId": "85774d39-ce30-6291-c0a0-dc732d13a59f",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:9000/beerhouse/beers",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1601345661361,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\"name\": \"Teste\"\n}\n"
+		},
+		{
+			"id": "d1ca61b8-a021-630f-b6cf-75a7253c80ee",
+			"headers": "Accept: application/json\nContent-Type: application/json\n//Authorization: Bearer BQCY4s4bvX-JzZrSPbfwNrKdqs5bKijT3JYerorQ5qo5nNzIdpCHAgtgXb28aQsXW1hSNS57_J9Y6Zzf7uZBe1_Fjz2r0UHZ73FZf0diN05xRsWuzhOnrX0_DR3XT0GjrTON-xF8o25HvFuOigWPT15KgdoKPWujP_UHW9M\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer BQCY4s4bvX-JzZrSPbfwNrKdqs5bKijT3JYerorQ5qo5nNzIdpCHAgtgXb28aQsXW1hSNS57_J9Y6Zzf7uZBe1_Fjz2r0UHZ73FZf0diN05xRsWuzhOnrX0_DR3XT0GjrTON-xF8o25HvFuOigWPT15KgdoKPWujP_UHW9M",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:9000/beerhouse/beers",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": "",
+			"method": "POST",
+			"collectionId": "85774d39-ce30-6291-c0a0-dc732d13a59f",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:9000/beerhouse/beers",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1601345650323,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\"name\": \"Louvada\",\n\"ingredients\": \"Cascas de ponkan e coentro\",\n\"alcoholContent\": \"4,3%\",\n\"price\": \"21.9\",\n\"category\": \"Witbier\"\n}\n"
+		},
+		{
+			"id": "f4423928-4762-6967-6180-18201fa1e631",
+			"headers": "Accept: application/json\nContent-Type: application/json\n//Authorization: Bearer BQCY4s4bvX-JzZrSPbfwNrKdqs5bKijT3JYerorQ5qo5nNzIdpCHAgtgXb28aQsXW1hSNS57_J9Y6Zzf7uZBe1_Fjz2r0UHZ73FZf0diN05xRsWuzhOnrX0_DR3XT0GjrTON-xF8o25HvFuOigWPT15KgdoKPWujP_UHW9M\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer BQCY4s4bvX-JzZrSPbfwNrKdqs5bKijT3JYerorQ5qo5nNzIdpCHAgtgXb28aQsXW1hSNS57_J9Y6Zzf7uZBe1_Fjz2r0UHZ73FZf0diN05xRsWuzhOnrX0_DR3XT0GjrTON-xF8o25HvFuOigWPT15KgdoKPWujP_UHW9M",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:9000/beerhouse/beers",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": "",
+			"method": "POST",
+			"collectionId": "85774d39-ce30-6291-c0a0-dc732d13a59f",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:9000/beerhouse/beers",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1601345638259,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\"name\": \"DUM Grand\",\n\"ingredients\": \"Trigo\",\n\"alcoholContent\": \"8,8%\",\n\"price\": \"23.9\",\n\"category\": \"Double Witbier\"\n}\n"
+		}
+	]
+}
